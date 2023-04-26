@@ -1,0 +1,10 @@
+.container {
+  padding: 0 150px; /* Add a left and right padding of 15px */
+}
+
+/*@media screen and (max-width: 767px) {*/
+/*  !* On mobile devices, remove the padding *!*/
+/*  .container {*/
+/*    padding: 0 !important;*/
+/*  }*/
+/*}*/
