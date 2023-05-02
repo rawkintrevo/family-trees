@@ -2,6 +2,9 @@ import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 const UserDashboard = (props) => {
+    if (!props.user) {
+        return <div>Loading...</div>;
+    }
 
     return (
         <Container>
